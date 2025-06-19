@@ -1,0 +1,15 @@
+.navlink {
+    background: #3a3a3a;
+    border-radius: 12px;
+    color: #e0ecf0;
+
+    padding: 10px;
+    margin: 0 8px;
+
+    transition: all 0.5s ease;
+}
+
+.navlink:hover {
+    color: #1c4b72;
+    opacity: 0.8;
+}

@@ -1,0 +1,25 @@
+.link_button {
+    color: #e0ecf0;
+    background: #3a3a3a;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    padding: 10px;
+    margin: 20px;
+
+    transition: all 0.5s ease;
+}
+
+.link_button:hover {
+    opacity: 0.8;
+}
+
+.link_button a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.link_button a svg {
+    display: inline;
+}

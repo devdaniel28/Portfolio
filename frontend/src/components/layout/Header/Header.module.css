@@ -1,0 +1,26 @@
+.header {
+    margin: 2vh 0.5vw;
+    padding: 12px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: linear-gradient(to right, #3a3a3a, #1c1a1a);    
+    border: #3a3a3a 0.1px solid;
+    border-radius: 15px;
+}
+
+.imgheader {
+    border-radius: 45%;
+}
+
+.header h1 {
+    font-size: 20pt;
+    flex-grow: 4;
+}
+
+.header nav {
+    flex-grow: 1;
+}
