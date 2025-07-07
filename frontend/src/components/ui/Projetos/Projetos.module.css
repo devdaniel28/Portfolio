@@ -1,0 +1,36 @@
+.projetos {
+    min-height: 20vh;
+    height: auto;
+    width: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    padding: 1rem;
+    margin: 4vh 4vw;
+
+    background: #3a3a3a;
+    border: #3a3a3a solid 1px;
+    border-radius: 12px;
+}
+
+.projetos h2 {
+    font-size: 1.5rem;
+}
+
+.projetos section {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.projetos section svg {
+    width: 30px;
+    height: 30px;
+}
+
+.projectimg {
+    width: 100px;
+    height: 100px;
+}

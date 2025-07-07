@@ -17,7 +17,9 @@
 }
 
 .header h1 {
-    font-size: 20pt;
+    font-size: 1.8rem;
+    text-shadow: 0 0 10px #3897e5, 0 0 20px #3897e5;
+
     flex-grow: 4;
 }
 
