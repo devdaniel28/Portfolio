@@ -23,9 +23,9 @@ export default function Header() {
             <h1>dvcDaniel</h1>
               <nav>
                 <Nav link='#about' text='Sobre'/>
-                <Nav link='' text='Skills'></Nav>
+                <Nav link='#skills' text='Skills'></Nav>
                 <Nav link='#projects' text='Projetos'></Nav>
-                <Nav link='#' text='Contato'></Nav>
+                <Nav link='#contact' text='Contato'></Nav>
               </nav>
         </header>
     )
