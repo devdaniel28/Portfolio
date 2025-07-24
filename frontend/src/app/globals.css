@@ -45,6 +45,7 @@ section {
   justify-content: center;
   gap: 15px;
   align-items: start;
+  scroll-margin: 6rem 0;
 
   margin: 5vh 4vw;
   padding: 20px;

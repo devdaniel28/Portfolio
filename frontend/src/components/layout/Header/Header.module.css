@@ -10,6 +10,9 @@
     background: linear-gradient(to right, #3a3a3a, #1c1a1a);    
     border: #3a3a3a 0.1px solid;
     border-radius: 15px;
+
+    position: sticky;
+    top: 0;
 }
 
 .imgheader {
@@ -20,7 +23,7 @@
     font-size: 1.8rem;
     text-shadow: 0 0 10px #3897e5, 0 0 20px #3897e5;
 
-    flex-grow: 4;
+    flex-grow: 5;
 }
 
 .header nav {

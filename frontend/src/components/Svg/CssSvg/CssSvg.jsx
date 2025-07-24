@@ -1,5 +1,5 @@
 export const CssSvg = () => (
-    <svg height="none" width="none" xmlns="http://www.w3.org/2000/svg"
+    <svg height="0" width="0" xmlns="http://www.w3.org/2000/svg"
                 aria-label="CSS3" role="img"
                 viewBox="0 0 512 512"><path fill="#264de4"
                 d="M72 460L30 0h451l-41 460-184 52"/><path fill="#2965f1"

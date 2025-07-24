@@ -13,6 +13,13 @@
     background: #3a3a3a;
     border: #3a3a3a solid 1px;
     border-radius: 12px;
+
+    transition: all 0.3s ease;
+}
+
+.projetos:hover {
+    box-shadow: #0b0b0b 0 2px 3px 0;
+    opacity: 0.8;
 }
 
 .projetos h2 {
