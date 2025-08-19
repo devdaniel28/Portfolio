@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <section id='topresent'>
-        <Image src='/dvcDaniel.png' alt='Foto de Perfil' width={180} height={180} id='img_about'/>
+        <Image src='/profile.png' alt='Foto de Perfil' width={180} height={180} id='img_about'/>
         <h2>Olá, Eu sou o Lucas Daniel</h2>
           <p>Programador Full Stack apaixonado por criar soluções inovadoras e úteis, sempre com o melhor custo-benefício. Especializado em React, Next e tegnologias modernas</p>
         
@@ -29,7 +29,7 @@ export default function Home() {
       
       <section id='about'>
             <h2>Sobre Mim</h2>
-              <p> Sou um desenvolvedor Full Stack apaixonado por transformar ideias em soluções criativas, funcionais e com propósito. Tenho uma abordagem prática, centrada na utilidade e na inovação, buscando sempre entregar o máximo valor com eficiência e objetividade. </p>
+              <p> Sou um desenvolvedor Full Stack junior apaixonado por transformar ideias em soluções criativas, funcionais e com propósito. Tenho uma abordagem prática, centrada na utilidade e na inovação, buscando sempre entregar o máximo valor com eficiência e objetividade. </p>
                 <p> Gosto de explorar novas tecnologias, criar experiências marcantes para os usuários e desenvolver projetos que façam a diferença — tanto em escala técnica quanto humana. Acredito que um bom projeto nasce do equilíbrio entre lógica, criatividade e intenção. </p>
                   <p>Atualmente, estou à frente do <strong>Chikitaverso</strong>, um ecossistema digital que une desenvolvimento, diversão e comunidade — incluindo experiências no Roblox, aplicações web e bots inteligentes.</p>
                     <strong>
@@ -38,25 +38,25 @@ export default function Home() {
       </section>
 
       <section id='projects'>
-          <Projetos link='https://geradordesenhas001.netlify.app/' title='Gerador de Senha' desq='Um gerador de Senha aletorio podendo ecolher quais caracteres deseja ter na senha e o tamanho da senha.' img='domain.svg'>
+          <Projetos codegh='https://github.com/devdaniel28/passwordGenerator' link='https://geradordesenhas001.netlify.app/' title='Gerador de Senha' desq='Um gerador de Senha aletorio podendo ecolher quais caracteres deseja ter na senha e o tamanho da senha.' img='domain.svg'>
             <JavaScriptSvg/>
               <HtmlSvg/>
                 <CssSvg/>
           </Projetos>
 
-          <Projetos link='https://getcalculator01.netlify.app/' title='GET Calculator' desq='Uma calculadora que calcula o GET(Gasto Energético Total) de uma pessoa, podendo escolher o sexo, idade, peso e altura.' img='domain.svg'>
+          <Projetos codegh='https://github.com/devdaniel28/GET-Calculator' link='https://getcalculator01.netlify.app/' title='GET Calculator' desq='Uma calculadora que calcula o GET(Gasto Energético Total) de uma pessoa, podendo escolher o sexo, idade, peso e altura.' img='domain.svg'>
             <JavaScriptSvg/>
               <HtmlSvg/>
                 <CssSvg/>
           </Projetos>
 
-          <Projetos link='https://agechecker01.netlify.app/' title='Age Checker' desq='Um verificador de idade que dis quantos anos e meses de idade você tem.' img='domain.svg'>
+          <Projetos codegh='https://github.com/devdaniel28/ageChecker' link='https://agechecker01.netlify.app/' title='Age Checker' desq='Um verificador de idade que dis quantos anos e meses de idade você tem.' img='domain.svg'>
             <JavaScriptSvg/>
               <HtmlSvg/>
                 <CssSvg/>
           </Projetos>
 
-          <Projetos link='https://stopwatchfordvcdaniel.netlify.app/' title='StopWatch' desq='Um conometro simples feito com o basico para pratica de estados no JavaScript.' img='domain.svg'>
+          <Projetos codegh='https://github.com/devdaniel28/Stopwatch' link='https://stopwatchfordvcdaniel.netlify.app/' title='StopWatch' desq='Um conometro simples feito com o basico para pratica de estados no JavaScript.' img='domain.svg'>
             <JavaScriptSvg/>
               <HtmlSvg/>
                 <CssSvg/>
