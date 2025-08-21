@@ -72,6 +72,7 @@ section {
 
 #skills article{
   display: flex;
+  flex-direction: column;
   place-content: center center;
   gap: 1rem;
 }

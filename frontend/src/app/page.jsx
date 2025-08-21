@@ -74,7 +74,6 @@ export default function Home() {
       </section>
 
       <footer id='contact'>
-          
       </footer>
     </>
   );
