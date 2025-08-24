@@ -7,9 +7,10 @@ import { ReactSvg } from "@/components/Svg/ReactSvg/ReactSvg";
 import { JavaScriptSvg } from "@/components/Svg/JavaScriptSvg/JavaScriptSvg";
 import { CssSvg } from "@/components/Svg/CssSvg/CssSvg";
 import { HtmlSvg } from "@/components/Svg/HtmlSvg/HtmlSvg";
+import { ProgressBar } from "@/components/ui/ProgressBar/ProgressBar";
 
 export default function Home() {
-  return (
+  return (//TODO: Fazer a aba contatos
     <>
       <section id='topresent'>
         <Image src='/profile.png' alt='Foto de Perfil' width={180} height={180} id='img_about'/>
@@ -66,13 +67,19 @@ export default function Home() {
       <section id='skills'>
         <h2>Skills</h2>
           <article>
+            <HtmlSvg/>
+              <ProgressBar valuebar='98' />
+            <CssSvg/>
+              <ProgressBar valuebar='99' />
+            <JavaScriptSvg/>
+              <ProgressBar valuebar='97' />
             <ReactSvg/>
-              <JavaScriptSvg/>
-                <CssSvg/>
-                  <HtmlSvg/>
+              <ProgressBar valuebar='80' />
+
+          
           </article>
       </section>
-
+          
       <footer id='contact'>
       </footer>
     </>
