@@ -1,0 +1,11 @@
+.progress {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    
+    box-sizing: border-box;
+}
+
+.progress p {
+    font-size: 18pt;
+}
