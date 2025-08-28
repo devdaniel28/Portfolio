@@ -8,7 +8,7 @@ export function ProgressBar({valuebar}) {
         <span className={styles.progress}>
             <p>{Percentage}</p>
                 <div style={{
-                    width: `${valueBar}0px`,
+                    width: `${valueBar}%`,
                     height: '15px',
                     background: '#e0ecf0',
                     borderRadius: '12px',

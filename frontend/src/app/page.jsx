@@ -9,12 +9,16 @@ import { CssSvg } from "@/components/Svg/CssSvg/CssSvg";
 import { HtmlSvg } from "@/components/Svg/HtmlSvg/HtmlSvg";
 import { ProgressBar } from "@/components/ui/ProgressBar/ProgressBar";
 
+const date = new Date
+const currentDate = date.getFullYear()
+
+
 export default function Home() {
-  return (//TODO: Fazer a aba contatos
+  return (
     <>
       <section id='topresent'>
         <Image src='/profile.png' alt='Foto de Perfil' width={180} height={180} id='img_about'/>
-        <h2>Olá, Eu sou o Lucas Daniel</h2>
+        <h2>Olá, Eu sou o Daniel</h2>
           <p>Programador Full Stack apaixonado por criar soluções inovadoras e úteis, sempre com o melhor custo-benefício. Especializado em React, Next e tegnologias modernas</p>
         
         <aside>
@@ -32,7 +36,6 @@ export default function Home() {
             <h2>Sobre Mim</h2>
               <p> Sou um desenvolvedor Full Stack junior apaixonado por transformar ideias em soluções criativas, funcionais e com propósito. Tenho uma abordagem prática, centrada na utilidade e na inovação, buscando sempre entregar o máximo valor com eficiência e objetividade. </p>
                 <p> Gosto de explorar novas tecnologias, criar experiências marcantes para os usuários e desenvolver projetos que façam a diferença — tanto em escala técnica quanto humana. Acredito que um bom projeto nasce do equilíbrio entre lógica, criatividade e intenção. </p>
-                  <p>Atualmente, estou à frente do <strong>Chikitaverso</strong>, um ecossistema digital que une desenvolvimento, diversão e comunidade — incluindo experiências no Roblox, aplicações web e bots inteligentes.</p>
                     <strong>
                       <q>A lógica é a anatomia do pensamento. -  Aristóteles</q>
                     </strong>
@@ -75,12 +78,25 @@ export default function Home() {
               <ProgressBar valuebar='97' />
             <ReactSvg/>
               <ProgressBar valuebar='80' />
-
-          
           </article>
       </section>
           
       <footer id='contact'>
+        <h2>Que tal conversarmos?</h2>
+          <p>Estou sempre disponivel para novas ideias é projetos</p>
+        <nav>
+          <LinkButton link='mailto:dvcdaniel.contato@gmail.com' text='dvcdaniel.contato@gmail.com'>
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+          </LinkButton>
+          <LinkButton link='https://www.linkedin.com/in/lucas-daniel-dam%C3%A1sio-niza-074478267/' text='Likedin'>
+            <img src="/likedin.svg" alt="Logo lidekin" />
+          </LinkButton>
+          <LinkButton link='https://github.com/devdaniel28' text='GitHub'>
+            <img src="/githubsvg.svg" alt="Logo do GitHub" />
+          </LinkButton>
+        </nav>
+
+        <p>&copy; {currentDate} dvcDaniel. Todos os direitos reservados</p>
       </footer>
     </>
   );

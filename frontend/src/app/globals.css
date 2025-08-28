@@ -29,9 +29,9 @@ section {
   border-radius: 48%;
 }
 
-#topresent h2, #about h2 {
+#topresent h2, #about h2, #contact h2 {
   font-size: 35pt;
-  margin: 10px;
+  margin: 0.8;
 }
 
 #topresent p {
@@ -55,12 +55,16 @@ section {
   background: #3a3a3a;
 }
 
+#projects {
+  scroll-margin: 4rem 0;
+}
+
 #skills {
   background: #3a3a3a;
   border: 1px solid #3a3a3a;
   border-radius: 12px;
   
-  padding: 0.8rem;
+  padding: 1.5rem;
   margin: 5vh 4vw;
 
   scroll-margin: 6rem 0;
@@ -84,5 +88,11 @@ section {
 }
 
 #contact {
-  
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#contact nav {
+  display: flex;
+  place-content: center center;
 }

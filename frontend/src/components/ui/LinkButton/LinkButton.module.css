@@ -16,10 +16,16 @@
 
 .link_button a {
     display: flex;
-    align-items: center;
+    place-content: center center;
     gap: 8px;
 }
 
 .link_button a svg {
     display: inline;
+}
+
+.link_button a img {
+    height: 1rem;
+    width: 1rem;
+    margin: 0.1rem;
 }
