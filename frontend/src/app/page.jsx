@@ -42,6 +42,8 @@ export default function Home() {
       </section>
 
       <section id='projects'>
+          <h3>Projetos</h3>
+        <article>
           <Projetos codegh='https://github.com/devdaniel28/passwordGenerator' link='https://geradordesenhas001.netlify.app/' title='Gerador de Senha' desq='Um gerador de Senha aletorio podendo ecolher quais caracteres deseja ter na senha e o tamanho da senha.' img='domain.svg'>
             <JavaScriptSvg/>
               <HtmlSvg/>
@@ -65,6 +67,7 @@ export default function Home() {
               <HtmlSvg/>
                 <CssSvg/>
           </Projetos>
+        </article>
       </section>
 
       <section id='skills'>

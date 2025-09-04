@@ -69,3 +69,24 @@
     color: #0b0b0b;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 850px) {
+    .projetos {
+        min-height: 20vh;
+        height: auto;
+        width: 100%;
+
+        display: inline-flex;
+        flex-direction: column;
+        gap: 0.2rem;
+
+        padding: 1rem;
+        margin: 4vh 0.8vw;
+
+        background: #3a3a3a;
+        border: #3a3a3a solid 1px;
+        border-radius: 12px;
+
+        transition: all 0.3s ease;
+    }
+}

@@ -29,13 +29,13 @@ section {
   border-radius: 48%;
 }
 
-#topresent h2, #about h2, #contact h2 {
+#topresent h2, #about h2, #contact h2{
   font-size: 35pt;
   margin: 0.8;
 }
 
 #topresent p {
-  width: 40%;
+  width: 80%;
   text-align: center;
 }
 
@@ -55,8 +55,16 @@ section {
   background: #3a3a3a;
 }
 
-#projects {
+#projects article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   scroll-margin: 4rem 0;
+}
+
+#projects h3 {
+  font-size: 35pt;
+  text-align: center;
 }
 
 #skills {
@@ -70,7 +78,7 @@ section {
   scroll-margin: 6rem 0;
 }
 
-#skills h2 {
+#skills h2{
   font-size: 35pt;
   margin: 1rem 0;
   text-align: center;
@@ -95,4 +103,26 @@ section {
 #contact nav {
   display: flex;
   place-content: center center;
+}
+
+@media only screen and (max-width: 850px) {
+  #topresent h2, #about h2, #contact h2{
+    font-size: 20pt;
+    margin: 0.8;
+  }
+
+  #projects article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    scroll-margin: 4rem 0;
+  }
+
+  #skills h2 {
+    font-size: 26pt;
+    margin: 1rem 0;
+    text-align: center;
+  }
 }
